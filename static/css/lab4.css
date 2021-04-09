@@ -1,0 +1,39 @@
+body {
+    font-family: 'Oranienbaum', serif !important;
+}
+
+form {
+    margin-left: auto;
+}
+
+@media (max-device-width: 500px) {
+    .title {
+        width: 100%;
+    }
+}
+
+.header {
+    background-color: rgb(29,29,29);
+}
+
+.collage{
+    background-color: rgb(230,230,230);
+}
+
+.footer{
+    background-color: rgb(29,29,29);
+    color: gray;
+}
+
+.links > a {
+    color: gray;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+#novelty:hover {
+    background-image: url(/static/img/novelty1.jpg);
+}
